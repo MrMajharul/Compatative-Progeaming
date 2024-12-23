@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int c, n;
+    cin>> c>> n;
+    cout<< "Enter Apple price & quantity: ";
+    
+    int b = c*n;
+    cout<<"Total price: " <<b;
+}

@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int P,F;
+    cin>> P >> F;
+    int E=P/8;
+    int total= P*F;
+    int Ex = E%F; 
+    cout<< E <<endl;
+    cout << Ex;
+}
